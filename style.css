@@ -1,0 +1,209 @@
+a
+{
+	text-decoration:none;
+}
+article, aside, audio, canvas, command, datalist, details, embed, 
+figcaption, figure, footer, header, hgroup, keygen, meter, nav, 
+output, progress, section, source, video, ul, li
+{ display: block; }
+mark, rp, rt, ruby, summary, time 
+{ display: inline }
+*
+{	font-family:Helvetica, Arials, sans-serif;
+	font-size:100%; 
+	line-height:1.125em;
+	color:#242424;
+}
+table
+{
+	text-align:center;
+	margin:auto;
+}
+tr
+{
+	font-size:19;
+	background:#fed66a;
+}
+tr:nth-child(2n)
+{
+background:#F4C430;
+}
+
+	/* Header */
+	header{
+		height:200px;
+		overflow:hidden;
+		background: #123456;
+	}
+
+	#content {
+		width: 100%;
+		overflow:hidden;
+	}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 1100px;
+	font-size:.8125em;
+	
+}
+.fleft { float:left;}
+.fright { float:right;}
+#content .fleft{	width:50%;}
+#content .fright{width:50%;}
+.alignright { text-align:right;}
+.aligncenter { text-align:center;}
+.main-box {
+	border-top:5px solid #eaeaea;
+	background:#fff;
+	width:100%;
+}
+.wrapper { 
+	width:100%;
+	overflow:hidden;
+}
+/* */
+.inside{ padding: 32px 0px 50px 0px; }
+footer 
+{
+		padding:20px 0 22px 0;
+		border-top:5px solid #555;
+		color:#fff;
+}
+	footer .fleft {
+		padding-left:40px;
+	}
+	footer .fright {
+		padding-right:40px;
+	}
+/*************************************************************************************/
+h1 {
+	font-size:34px;
+	color:#fff;
+	font-weight:normal;
+	position:absolute;
+	left:39px;
+	top:6px;
+}
+	h1 a {
+		color:#fff;
+		text-decoration:none;
+	}
+	h2 {
+	font-size:30px;
+	line-height:1.2em;
+	font-weight:normal;
+	color:#212222;
+	margin-bottom:22px;
+}
+	h2 span, h2 a {
+		color:#8a8a8a;
+	}
+	h2 a:hover {
+		text-shadow: 1px 1px 1px #888; 
+	}
+h3 {
+	font-size:1em;
+	margin-bottom:6px;
+}
+	h3 a { color:#242424; }
+	h3 a:hover {
+		text-shadow: 1px 1px 1px #888; 
+	}
+header nav {
+	float:left;
+	margin-top: 82px;
+}
+		header nav ul li {
+			float:left;
+		}
+			header nav ul li a {
+				font-size:22px;
+				color:#fff;
+				height:100px;
+				line-height:100px;
+				text-decoration:none;
+				width:160px;
+				text-align:center;
+				float:left;
+				background:#433b8f;
+			}
+		 header nav ul li a:hover {
+			padding-bottom:15px;
+		}
+		
+		header nav ul li:nth-of-type(2) a {
+			background:#0184cd;
+			}
+		header nav ul li:nth-of-type(3) a {
+			background:#7cbc19;
+			}
+		header nav ul li:nth-of-type(4) a {
+			background:#ffbc00;
+			}
+		header nav ul li:nth-of-type(5) a {
+			background:#f07502;
+			}
+		header nav ul li:nth-of-type(6) a {
+			background:#d00110;
+			}
+
+body
+{
+	
+	background-image:url(tlo.png);
+	background-attachment:scroll;
+	background:#0184cd;
+	padding:50px 20px 50px 20px; 
+	}
+
+
+
+#tablicaBox, div.pierwDown{width:1040px;}
+#tablicaBox #tablica{width:1040px;margin:30px auto 20px;}
+#tablicaBox #tablica div{float:left;width:58px;margin-right:-1px;}
+#tablicaBox div.pierwDown{width:800px;float:left;clear:both;margin:20px auto;overflow:visible;}
+#tablicaBox #tablica div div, #tablicaBox .pierwDown div div{margin:0 0 0 1px;float:left;clear:both;width:56px;height:70px;display:block;text-align:center;background:none;margin:0 0 -1px 0;overflow:hidden;font-family:Arial, Helvetica, sans-serif;font-size:11px;}
+#tablicaBox div.pierwDown > div{clear:both;width:1960px;float:left;height:70px;overflow:visible;}
+#tablicaBox div.pierwDown > div span.star{float:left;font-size:20px;width:40px;line-height:50px;text-align:right;}
+#tablicaBox .pierwDown div div{clear:right;margin-right:-1px;}
+#tablicaBox div.pierwiastekInfo{margin:0px 0 0 165px;position:absolute;width:620px; display:block;}
+#tablicaBox #tablica div div p span, #tablicaBox .pierwDown div div p span{font-size:16px;margin:3px 0;color:#003300;width:100%;text-align:center;clear:both;display:block;font-weight:700; font-family:Gabriola, Helvetica, Arials, sans-serif;}
+#tablicaBox #tablica div div p sub, #tablicaBox .pierwDown div div p sub{font-size:9px;margin-right:2px;font-weight:500;}
+#tablicaBox #tablica div div p span:last-child, #tablicaBox .pierwDown div div p span:last-child{font-size:11px;color:#b5006f;font-weight:100;word-spacing:1px;}
+#tablicaBox div#temperatura span{color:#011b25;font-weight:100;}
+
+#tablicaBox #tablica div div.METALEALKALICZNE, #tablicaBox .pierwDown div div.METALEALKALICZNE{background:#00B7EB;border:1px solid white;}
+#tablicaBox #tablica div div.METALEALKALICZNE:hover, #tablicaBox .pierwDown div div.METALEALKALICZNE:hover{background:#00d0d0;cursor:pointer;}
+#tablicaBox #tablica div div.NIEMETALE, #tablicaBox .pierwDown div div.NIEMETALE{background:#7CFC00;border:1px solid white;}
+#tablicaBox #tablica div div.NIEMETALE:hover, #tablicaBox .pierwDown div div.NIEMETALE:hover{background:#bbFF50;cursor:pointer;}
+#tablicaBox #tablica div div.POLMETALE, #tablicaBox .pierwDown div div.POLMETALE{background:#FEFE33;border:1px solid white;}
+#tablicaBox #tablica div div.POLMETALE:hover, #tablicaBox .pierwDown div div.POLMETALE:hover{background:#F9E08B;cursor:pointer;}
+#tablicaBox #tablica div div.GAZYSZLACHETNE, #tablicaBox .pierwDown div div.GAZYSZLACHETNE{background:#30B030;border:1px solid white;}
+#tablicaBox #tablica div div.GAZYSZLACHETNE:hover, #tablicaBox .pierwDown div div.GAZYSZLACHETNE:hover{background:#50D050;cursor:pointer;}
+
+#tablicaBox #tablica div div.METALEZIEMALKALICZNYCH, #tablicaBox .pierwDown div div.METALEZIEMALKALICZNYCH{background:#4169E1;border:1px solid white;}
+#tablicaBox #tablica div div.METALEZIEMALKALICZNYCH:hover, #tablicaBox .pierwDown div div.METALEZIEMALKALICZNYCH:hover{background:#6189f1;cursor:pointer;}
+#tablicaBox #tablica div div.HALOGENY, #tablicaBox .pierwDown div div.HALOGENY{background:#00FF00;border:1px solid white;}
+#tablicaBox #tablica div div.HALOGENY:hover, #tablicaBox .pierwDown div div.HALOGENY:hover{background:#80FF80;cursor:pointer;}
+#tablicaBox #tablica div div.METALEPRZEJSCIOWE, #tablicaBox .pierwDown div div.METALEPRZEJSCIOWE{background:#00A693;border:1px solid white;}
+#tablicaBox #tablica div div.METALEPRZEJSCIOWE:hover, #tablicaBox .pierwDown div div.METALEPRZEJSCIOWE:hover{background:#22C8B5;cursor:pointer;}
+#tablicaBox #tablica div div.METALEBLOKUP, #tablicaBox .pierwDown div div.METALEBLOKUP{background:#69449C;border:1px solid white;}
+#tablicaBox #tablica div div.METALEBLOKUP:hover, #tablicaBox .pierwDown div div.METALEBLOKUP:hover{background:#8964AC;cursor:pointer;}
+
+#tablicaBox #tablica div div.LANTANOWCE, #tablicaBox .pierwDown div div.LANTANOWCE{background:#B803FF;border:1px solid white;}
+#tablicaBox #tablica div div.LANTANOWCE:hover, #tablicaBox .pierwDown div div.LANTANOWCE:hover{background:#D823FF;cursor:pointer;}
+#tablicaBox #tablica div div.AKTYNOWCE, #tablicaBox .pierwDown div div.AKTYNOWCE{background:#EE82EE;border:1px solid white;}
+#tablicaBox #tablica div div.AKTYNOWCE:hover, #tablicaBox .pierwDown div div.AKTYNOWCE:hover{background:#FEA2FF;cursor:pointer;}
+
+
+#tablicaBox #tablica div div.STALE, #tablicaBox .pierwDown div div.STALE{background:#fdfa00;border:1px solid white;}
+#tablicaBox #tablica div div.STALE:hover, #tablicaBox .pierwDown div div.STALE:hover{background:#fffe81;cursor:pointer;}
+#tablicaBox #tablica div div.GAZ, #tablicaBox .pierwDown div div.GAZ{background:#4169E1;border:1px solid white;}
+#tablicaBox #tablica div div.GAZ:hover, #tablicaBox .pierwDown div div.GAZ:hover{background:#6189FF;cursor:pointer;}
+#tablicaBox #tablica div div.CIECZ, #tablicaBox .pierwDown div div.CIECZ{background:#00FF00;border:1px solid white;}
+#tablicaBox #tablica div div.CIECZ:hover, #tablicaBox .pierwDown div div.CIECZ:hover{background:#90FF60;cursor:pointer;}
+#tablicaBox #tablica div div.NIEZNANY, #tablicaBox .pierwDown div div.NIEZNANY{background:#9edcff;border:1px solid white;}
+#tablicaBox #tablica div div.NIEZNANY:hover, #tablicaBox .pierwDown div div.NIEZNANY:hover{background:#b8e6f0;cursor:pointer;}
+
